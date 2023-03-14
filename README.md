@@ -10,6 +10,7 @@ crear listados de urls para escluirlas en el escaneo de owaszap
    ```bash
 # Inicie un análisis de araña utilizando el contexto personalizado
 spider_id = zap.spider.scan_as_user(contextid=context_id)
+
 # Inicie un análisis activo utilizando el contexto personalizado
 scan_id = zap.ascan.scan_as_user(contextid=context_id) 
 
