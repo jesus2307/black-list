@@ -8,8 +8,8 @@ context_name = "Mi Contexto Personalizado"
 context_id = zap.context.new_context(context_name)
 
 # Proporcione las rutas de los archivos de contexto y lista negra
-context_file = "/ruta/al/archivo/contexto.txt"
-blacklist_file = "/ruta/al/archivo/blacklist.txt"
+context_file = "/zap/contexto.txt"
+blacklist_file = "/zap/archivo/blacklist.txt"
 
 # Agregue las URLs incluidas y excluidas al contexto
 with open(context_file, "r") as f:
