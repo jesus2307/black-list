@@ -15,8 +15,5 @@ spider_id = zap.spider.scan_as_user(contextid=context_id)
 scan_id = zap.ascan.scan_as_user(contextid=context_id)
 
 
-
-
-
-
+*/
 También puede automatizar el proceso de creación de contextos personalizados utilizando la API REST de OWASP ZAP en su script de Python.
